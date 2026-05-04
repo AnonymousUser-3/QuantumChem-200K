@@ -1,0 +1,41 @@
+# requirements.txt
+
+# Recommended: Python 3.10 or 3.11 with a CUDA-capable NVIDIA GPU.
+# For CUDA-specific PyTorch wheels, see: https://pytorch.org/get-started/locally/
+
+# Core ML / fine-tuning stack
+torch==2.5.1
+transformers==4.46.3
+datasets==3.1.0
+trl==0.8.6
+peft==0.13.2
+accelerate==1.1.1
+bitsandbytes==0.44.1
+unsloth==2024.12.4
+unsloth-zoo==2024.12.4
+xformers==0.0.28.post3
+safetensors==0.4.5
+huggingface-hub==0.26.5
+sentencepiece==0.2.0
+protobuf==5.28.3
+
+# Data processing / evaluation
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.3
+scipy==1.14.1
+scikit-learn==1.5.2
+
+# Notebook support
+jupyter==1.1.1
+ipython==8.29.0
+ipywidgets==8.1.5
+notebook==7.2.2
+jupyterlab==4.2.6
+
+# API baseline inference
+anthropic==0.40.0
+python-dotenv==1.0.1
+
+# Utilities
+tqdm==4.67.1
