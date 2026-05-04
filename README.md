@@ -1,7 +1,7 @@
 # QuantumChem-200K: A Large-Scale Open Organic Molecular Dataset for Quantum-Chemistry Property Screening and Language Model Benchmarking
 
 We introduce QuantumChem-200K, a large-scale dataset of over 200,000 organic molecules annotated with seven quantum-chemical properties, including two-photon absorption (TPA) cross sections, TPA spectral ranges, singlet–triplet intersystem crossing (ISC) energies, toxicity and synthetic accessibility scores, solubility, and boiling point. These values are computed using a hybrid workflow that integrates density function theory (DFT), semi-empirical excited-state methods, atomistic quantum solvers, and neural-network predictors.
-Data is available at: https://anonymous.4open.science/r/QuantumChem-200K-1087, and paper is under review.
+Data is available at: https://huggingface.co/datasets/QuantumChem/QuantumChem_200k, and paper is under review.
 
 # Dataset composition:
 <img width="658" height="230" alt="302ddf4f-5268-42f3-b504-65543633cdbc" src="https://github.com/user-attachments/assets/6b459694-6491-42ad-9457-f549e1ee091d" />
