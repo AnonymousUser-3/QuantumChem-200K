@@ -456,12 +456,12 @@ Using QuantumChem-200K, we fine-tuned the open-source Qwen-2.5-32B LLM to create
 If you use this repository in academic work, please cite the associated project or manuscript.
 
 ```bibtex
-@misc{quantumchem-zeng2026,
+@misc{quantumchem2026,
   title  = {QuantumChem-200K: A Large-Scale Organic Molecular Dataset for Quantum-Chemistry Property Screening and Language Model Benchmarking},
-  author = {Yinqi Zeng, Shangding Gu, Jiancong Xiao, Ruizhong Qiu, Yuanchen Bei, Hanghang Tong, Renjie Li},
+  author = {},
   year   = {2026},
   note   = {under review},
-  url    = {https://arxiv.org/abs/2511.21747}
+  url    = {}
 }
 ```
 ---
