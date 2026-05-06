@@ -44,7 +44,7 @@ The main workflow includes:
 ├── 3000testbank.csv             # Ground-truth test set for evaluation
 ├── 100prediction.csv           # Prediction CSV for evaluation
 └── outputs/                    # Training checkpoints and model outputs
-└── Quantumchemistry simulation code/                    # code to run quantum-chemical simulations
+└── Quantumchemistry simulation code/     # code to run quantum-chemical simulations
 ```
 
 ---
