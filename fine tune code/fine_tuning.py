@@ -80,7 +80,7 @@ pass
 
 
 dataset = load_dataset(
-    "YinqiZeng704/200k_monomer_properties",   #  ←  your repo ID
+    "QuantumChem/QuantumChem_200k",   #  ←  your repo ID
     split="train"                        #  Hub auto-creates a single "train" split
 )
 dataset = dataset.map(
@@ -127,7 +127,7 @@ print(f"GPU = {gpu_stats.name}. Max memory = {max_memory} GB.")
 print(f"{start_gpu_memory} GB of memory reserved.")
 
 # trainer_stats = trainer.train()
-trainer_stats = trainer.train(resume_from_checkpoint="/mnt/shared/gpfs/home/renjie2/fine_tune/forward/outputs/checkpoint-3000")
+trainer_stats = trainer.train(resume_from_checkpoint="./checkpoint-3000")
 
 # If you've kept a reference to your trainer object
 log_hist = trainer.state.log_history    # or trainer_stats
@@ -184,5 +184,5 @@ _ = model.generate(**inputs, streamer = text_streamer, max_new_tokens = 128)
 #model.save_pretrained("200k_lora_model") # Local saving
 #tokenizer.save_pretrained("200k_lora_model")
 
-model.push_to_hub("YinqiZeng704/200k_model", token = "your token") # Online saving
-tokenizer.push_to_hub("YinqiZeng704/200k_model", token = "your token") # Online saving
+model.push_to_hub("...", token = "your token") # Online saving
+tokenizer.push_to_hub("...", token = "your token") # Online saving
