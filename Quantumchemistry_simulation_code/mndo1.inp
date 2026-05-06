@@ -1,0 +1,14 @@
+jop=-1 +
+iop=-22 immdp=-1 igeom=1 iform=1 nsav15=3 +
+icuts=-1 icutg=-1 kitscf=9999 iscf=9 iplscf=9 +
+iprint=-1 kprint=-5 lprint=-2 mprint=0 jprint=-1 +
+kharge=0 imult=3 nprint=-1 +
+kci=6 iroot=3 iuvcd=2 +
+ncisym=-1 ioutci=3 ipubo=1 
+
+
+ 8       0.71188522   1       0.03971053   1      -0.03231003   1
+ 8      -0.71205885   1      -0.03984334   1      -0.02804205   1
+ 1       0.93702457   1      -0.75230662   1       0.47788286   1
+ 1      -0.93426901   1       0.75441445   1       0.47994841   1
+

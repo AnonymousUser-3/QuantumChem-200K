@@ -1,0 +1,268 @@
+
+
+
+ PROGRAM MNDO2019.
+ VERSION 8.0 OF 15 AUGUST 2019.
+
+ COPYRIGHT BY WALTER THIEL,
+ MAX-PLANCK-INSTITUT FUER KOHLENFORSCHUNG,
+ D-45470 MUELHEIM, GERMANY.
+
+
+ ***** STANDARD INPUT USING KEYWORDS *****
+
+ IOP    =  -22     JOP    =   -1     IGEOM  =    1     IFORM  =    1     NSAV15 =    3
+ ICUTS  =   -1     ICUTG  =   -1     IMMDP  =   -1     ISCF   =    9     IPLSCF =    9
+ IPRINT =   -1     KPRINT =   -5     LPRINT =   -2     MPRINT =    0     JPRINT =   -1
+ KHARGE =    0     IMULT  =    3     IPUBO  =    1     KITSCF = 9999     NPRINT =   -1
+ KCI    =    6     IOUTCI =    3     IROOT  =    3     NCISYM =   -1     IUVCD  =    2
+
+
+ ***********************************************************************
+ * INPUT OF OPTIONS VIA KEYWORDS
+ * NUMBER OF MNDO97 KEYWORDS FOUND: 25
+ * MOPAC KEYWORDS NOT FOUND: IMOPAC=-1
+ ***********************************************************************
+
+
+
+ *** OPTIONS FROM THE FIRST LINE OF INPUT    ***
+ *** DEFINED EITHER EXPLICITLY OR BY DEFAULT ***
+
+ LIMIT  =    0     IOP    =  -22     JOP    =   -1     IGEOM  =    1     IFORM  =    1
+ NEXMOL =    1     MPLIB  =    0     IEF    =    0     IDIIS  =    0     INREFD =    0
+ IPAROK =    0     MMINP  =    0     NMR    =    0     NSAV7  =    0     NSAV8  =    0
+ NSAV9  =    0     NSAV13 =    0     NSAV15 =    3     NSAV16 =    0     IMMOK  =    0
+ IHBOND =    0     IFLD1  =    0     IFLD2  =    0     IFLD3  =    0     ICUTS  =   -1
+ ICUTG  =   -1     IEXBAS =    0     ICOSMO =    0     IPSANA =    0     IMMDP  =   -1
+ INAC   =    0
+
+
+
+ ODM2   
+
+ STANDARD CALCULATION FOR INPUT GEOMETRY
+
+ INPUT IN CARTESIAN COORDINATES
+
+ INPUT OF MOLECULAR DATA IN FREE FORMAT
+
+
+
+                                                                                     
+                                                                                     
+
+
+
+     EIGENVALUES (EV) FOR ALPHA SPIN.
+
+
+             1           2           3           4           5
+    0   -41.77536   -36.15643   -18.02949   -17.63127   -16.71309
+    5   -13.39351   -12.73313    -9.57297     4.70563     5.39440
+
+
+
+     EIGENVALUES (EV) FOR BETA SPIN.
+
+
+             1           2           3           4           5
+    0   -38.41301   -32.31091   -17.25160   -15.70302   -13.91961
+    5   -11.35914    -1.24812     3.30962     5.31602     5.98008
+
+
+
+     EXPECTATION VALUE FOR SZ     1.00000
+     EXPECTATION VALUE FOR S**2   2.00426
+
+
+
+     TOTAL ENERGY            -15903.68541 KCAL/MOL
+     SCF BINDING ENERGY          -9.09836 EV
+     SCF TOTAL ENERGY          -689.63555 EV
+     ELECTRONIC ENERGY        -1208.20320 EV
+     NUCLEAR ENERGY             518.56765 EV
+     IONIZATION ENERGY            9.57297 EV
+     SCF CYCLES                  43
+
+
+     THE DENSITY MATRIX HAS BEEN SAVED ON FILE 11
+
+
+
+     NET ATOMIC AND ORBITAL SPIN DENSITIES.
+
+     ATOM    I     SPIN DENSITY       S          PX          PY          PZ
+
+      O      1        0.99689     0.02417     0.43028     0.10728     0.43515
+      O      2        0.99689     0.02417     0.43097     0.10618     0.43558
+      H      3        0.00311     0.00311
+      H      4        0.00311     0.00311
+
+     TOTAL SPIN DENSITY           2.00000
+
+
+
+     NET ATOMIC CHARGES AND ORBITAL POPULATIONS.
+
+     ATOM    I        CHARGE      DENSITY        S          PX          PY          PZ
+
+      O      1       -0.28653     6.28653     1.96297     1.46656     1.45572     1.40127
+      O      2       -0.28653     6.28653     1.96297     1.46730     1.45455     1.40170
+      H      3        0.28653     0.71347     0.71347
+      H      4        0.28653     0.71347     0.71347
+
+
+
+     DIPOLE              X           Y           Z         TOTAL
+
+     POINT-CHARGE     0.00403     0.00308     1.40128     1.40129
+     HYBRID           0.00042     0.00032     0.14684     0.14684
+     SUM              0.00445     0.00341     1.54812     1.54813
+ 
+ NRoots:            3  NOrb:           10  NAlpha:            8
+ NBeta:             6  NOa:             8  NOb:               6
+ NVa:               2  NVb:             4  NBas:             10
+ kitdav:           50  NOVa:           32  NOVb:             32
+ NOV:              64  I3:              1  I1:                0
+ LState:            1  lm2             10  lm3:              10
+ I1n                0  NrmDav           7
+
+
+     **************************************
+     *            CIS CALCULATION         *
+     **************************************
+
+
+
+
+              VERTICAL RPA EXCITATION ENERGY
+
+
+
+
+  1   40.527240   34.908308   16.781374   16.383147   15.464975   12.145394
+  2   45.084979   39.466047   21.339113   20.940886   20.022715   16.703133
+  3   47.091383   41.472451   23.345516   22.947290   22.029118   18.709536
+  4   47.755443   42.136511   24.009576   23.611350   22.693178   19.373596
+
+
+  1   11.485016    8.324854
+  2   16.042755   12.882593
+  3   18.049159   14.888997
+  4   18.713219   15.553057
+           1           3  0.134169721497086     
+           2           3  8.178099938718429E-002
+           3           3  0.268244199799754     
+           4           3  4.010936774186512E-002
+           5           3  5.961179942733945E-003
+           6           1  1.524029186014245E-004
+           7           0  3.858880835983928E-008
+ CIS Converged
+ Using STO-6G basis for the evaluation spectroscopic observables.
+
+
+ AO basis set for the evaluation of spectroscopic observables:
+
+                                          0
+  1   1   1    0.4401555600E+02    0.9163596280E-02
+  1   1   2    0.8070204011E+01    0.4936149294E-01
+  1   1   3    0.2257752261E+01    0.1685383049E+00
+  1   1   4    0.7755988369E+00    0.3705627997E+00
+  1   1   5    0.3011877247E+00    0.4164915298E+00
+  1   1   6    0.1240457377E+00    0.1303340841E+00
+
+                                          0                   1
+  8   1   1    0.2315768969E+02   -0.1325278809E-01    0.3759696623E-02
+  8   1   2    0.4583511149E+01   -0.4699171014E-01    0.3767936984E-01
+  8   1   3    0.1424551849E+01   -0.3378537151E-01    0.1738967435E+00
+  8   1   4    0.5480764435E+00    0.2502417861E+00    0.4180364347E+00
+  8   1   5    0.2380299729E+00    0.5951172526E+00    0.4258595477E+00
+  8   1   6    0.1091065522E+00    0.2407061763E+00    0.1017082955E+00
+
+
+
+ State dipole moments:
+
+   #    Symmetry       eV         cm-1     mu_r(x)/D   mu_r(y)/D   mu_r(z)/D    |mu_r|/D     phi/deg   theta/deg
+   1     A   (1)    0.000000        0.00    0.003579    0.002739    1.245248    1.245257     37.4226      0.2074
+   2     A   (1)    2.471272    19933.17    0.003608    0.002761    1.254789    1.254797     37.4227      0.2075
+   3     A   (1)    3.377847    27245.56    0.003569    0.002731    1.240994    1.241003     37.4203      0.2075
+
+
+
+ Properties of transitions   1 -> #:
+
+   #    Symmetry       eV         cm-1        nm        f_r         f_p         f_rp        R/DBM
+   2     A   (1)    2.471272    19933.17    501.68    0.000041    0.193921    0.002825    1.736768
+   3     A   (1)    3.377847    27245.56    367.03    0.001265    0.000651    0.000908   -0.002693
+
+
+
+ Dipole-length electric dipole transition moments   1 -> #:
+
+   #    Symmetry       eV         cm-1     mu_r(x)/D   mu_r(y)/D   mu_r(z)/D    |mu_r|/D     phi/deg   theta/deg
+   2     A   (1)    2.471272    19933.17   -0.000190   -0.000146   -0.066259    0.066259   -142.5726    179.7926
+   3     A   (1)    3.377847    27245.56   -0.000903   -0.000691   -0.314274    0.314276   -142.5733    179.7927
+
+
+
+ Dipole-velocity electric dipole transition moments   1 -> #:
+
+   #    Symmetry       eV         cm-1     mu_p(x)/D   mu_p(y)/D   mu_p(z)/D    |mu_p|/D     phi/deg   theta/deg
+   2     A   (1)    2.471272    19933.17   -0.013075   -0.010008   -4.548693    4.548723   -142.5690    179.7926
+   3     A   (1)    3.377847    27245.56   -0.000646   -0.000496   -0.225441    0.225442   -142.4690    179.7929
+
+
+
+ Magnetic dipole transition moments   1 -> #:
+
+   #    Symmetry       eV         cm-1      m(x)/iBM    m(y)/iBM    m(z)/iBM      |m|/BM     phi/deg   theta/deg
+   2     A   (1)    2.471272    19933.17    0.001099    0.000840    0.381812    0.381814     37.3999      0.2075
+   3     A   (1)    3.377847    27245.56   -0.000034   -0.000027   -0.011945    0.011945   -142.1833    179.7921
+
+
+
+-------------------------------------------------------------------------
+
+ State  1,  Mult. 3, E-E(1)= -2.453961 eV,  E=   -692.089510 eV
+-------------------------------------------------------------------------
+
+ Px:   0.00     Py:   0.00     Pz:   0.00
+ Strength:        0.00
+  8(alpha) -->  7(beta)   0.996
+-------------------------------------------------------------------------
+
+ State  2,  Mult. 3, E-E(1)=  0.017311 eV,  E=   -689.618238 eV
+-------------------------------------------------------------------------
+
+ Px:   0.00     Py:   0.00     Pz:   0.00
+ Strength:        0.00
+  7(alpha) -->  7(beta)   0.708
+  8(alpha) -->  8(beta)   0.685
+  8(alpha) --> 10(beta)  -0.139
+-------------------------------------------------------------------------
+
+ State  3,  Mult. 3, E-E(1)=  0.923886 eV,  E=   -688.711664 eV
+-------------------------------------------------------------------------
+
+ Px:   0.00     Py:   0.00     Pz:   0.00
+ Strength:        0.00
+  7(alpha) -->  7(beta)   0.700
+  8(alpha) -->  8(beta)  -0.700
+  8(alpha) --> 10(beta)   0.125
+
+
+excitation energy time:     0.0014
+
+
+
+
+
+     TIME FOR ENERGY EVALUATION       0.002 SECONDS
+
+
+
+ COMPUTATION TIME                 0.003 SECONDS
+
+
