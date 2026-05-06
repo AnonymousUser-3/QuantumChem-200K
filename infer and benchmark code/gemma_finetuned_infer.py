@@ -6,7 +6,7 @@ from unsloth import FastLanguageModel, FastModel
 import torch
 
 BASE_MODEL_ID   = "unsloth/Qwen2.5-32B"          # your base
-LORA_ADAPTER_ID = "YinqiZeng704/gemma_ablation"         # <<— change this
+LORA_ADAPTER_ID = "..."         # <<— change this
 
 HF_TOKEN = "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"
 
