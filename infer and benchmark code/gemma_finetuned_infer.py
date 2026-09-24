@@ -8,7 +8,7 @@ import torch
 BASE_MODEL_ID   = "unsloth/Qwen2.5-32B"          # your base
 LORA_ADAPTER_ID = "..."         # <<— change this
 
-HF_TOKEN = "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"
+HF_TOKEN = ""
 
 
 max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
